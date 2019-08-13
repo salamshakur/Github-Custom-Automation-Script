@@ -20,6 +20,6 @@ For Example:
     "folderPath":  "C:\\Users\\salamshakur\\Desktop\\myProjects"
 
 * In Terminal/Command Prompt
-    * `python create.py Hello World`
+    `python create.py Hello World`
 
 Thank you and enjoy!
