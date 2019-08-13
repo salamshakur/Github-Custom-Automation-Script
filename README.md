@@ -10,9 +10,17 @@ prerequisites:
 
 To run:
 1. Edit the config.json file to include your username, password, and local path to where you want to create your new project
-2. run the following code => `python create.py {name of your project here}`
+2. run the following code -> `python create.py {name of your project here}`
 
 For Example:
-`python create.py Hello World`
+* In Config.json file
+    * `{`
+        `"username"  :  "salamshakur",`
+        `"password"  :  "p@$$w0rd",`
+        `"folderPath":  "C:\\Users\\salamshakur\\Desktop\\myProjects"`
+      `}`
+
+* In Terminal/Command Prompt
+    * `python create.py Hello World`
 
 Thank you and enjoy!
