@@ -14,11 +14,10 @@ To run:
 
 For Example:
 * In Config.json file
-    * ```{
-            "username"  :  "salamshakur",
-            "password"  :  "p@$$w0rd",
-            "folderPath":  "C:\\Users\\salamshakur\\Desktop\\myProjects"
-         }
+    * ```
+        "username"  :  "salamshakur",
+        "password"  :  "p@$$w0rd",
+        "folderPath":  "C:\\Users\\salamshakur\\Desktop\\myProjects"
 
 * In Terminal/Command Prompt
     * `python create.py Hello World`
