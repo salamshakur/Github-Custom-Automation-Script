@@ -15,8 +15,8 @@ To run:
 For Example:
 * In Config.json file
     * `{
-        "username"  :  "salamshakur",
-        "password"  :  "p@$$w0rd",
+        "username"  :  "salamshakur", \n
+        "password"  :  "p@$$w0rd", \n
         "folderPath":  "C:\\Users\\salamshakur\\Desktop\\myProjects"
        }`
 
