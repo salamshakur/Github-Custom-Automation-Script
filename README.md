@@ -14,14 +14,16 @@ By running this script, any user can simultaneously create a Github repository, 
 
 ## For Example:
 * Inside the Config.json file
-    ```
+    ```json
     "username"  :  "salamshakur",
     "password"  :  "p@$$w0rd",
     "folderPath":  "C:\\Users\\salamshakur\\Desktop\\myProjects"
+    ```
 
 * Inside your Terminal/Command Prompt
-    ```
+    ```python
     python create.py Hello World
+    ```
 
 
 ## Thank you and enjoy!
