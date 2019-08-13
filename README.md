@@ -13,13 +13,14 @@ To run:
 2. run the following code -> `python create.py {name of your project here}`
 
 For Example:
-* In Config.json file
+* Inside the Config.json file
     ```
     "username"  :  "salamshakur",
     "password"  :  "p@$$w0rd",
     "folderPath":  "C:\\Users\\salamshakur\\Desktop\\myProjects"
 
-* In Terminal/Command Prompt
-    `python create.py Hello World`
+* Inside your Terminal/Command Prompt
+    ```
+    python create.py Hello World
 
 Thank you and enjoy!
