@@ -12,7 +12,7 @@ By running this script, any user can simultaneously create a Github repository, 
 1. Edit the config.json file to include your username, password, and local path to where you want to create your new project
 2. run the following code -> `python create.py {name of your project here}`
 
-### For Example:
+## For Example:
 * Inside the Config.json file
     ```
     "username"  :  "salamshakur",
@@ -23,4 +23,5 @@ By running this script, any user can simultaneously create a Github repository, 
     ```
     python create.py Hello World
 
-Thank you and enjoy!
+
+## Thank you and enjoy!
