@@ -22,6 +22,12 @@ gitPath = '-'.join(args)
 # load JSON file
 with open('config.json', 'r') as f:
     config = json.load(f)
+    
+# create new project folder locally
+path = config['folderPath']
+os.chdir(path)
+os.makedirs(name)
+os.chdir(path + '\\' + name)
 
 # login into Github
 user = Github(config['username'], config['password']).get_user()
@@ -32,12 +38,6 @@ loginName = user.login
 # create new repository
 repo = user.create_repo(name)
 print("GitHub Repository Created Successfully.")
-
-# create new project folder locally
-path = config['folderPath']
-os.chdir(path)
-os.makedirs(name)
-os.chdir(path + '\\' + name)
 
 # go into directory and run git commands
 os.system('echo # ' + name + ' >> README.md')
