@@ -25,7 +25,11 @@ with open('config.json', 'r') as f:
     
 # create new project folder locally
 path = config['folderPath']
-os.chdir(path)
+try:
+    os.chdir(path)
+except:
+    print('Invalid Folder path.')
+    exit()
 os.makedirs(name)
 os.chdir(path + '\\' + name)
 
