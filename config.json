@@ -1,0 +1,5 @@
+{
+    "username"  : "your GitHub username", 
+    "password"  : "your GitHub password",
+    "folderPath": "C:\\path\\to\\your\\projects folder"
+}

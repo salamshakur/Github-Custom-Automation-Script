@@ -20,9 +20,13 @@ name = ' '.join(args)
 gitPath = '-'.join(args)
 
 # load JSON file
-with open('config.json', 'r') as f:
-    config = json.load(f)
-    
+try:
+    with open('config.json', 'r') as f:
+        config = json.load(f)
+except:
+    print('config.json File Not Found')
+    exit()
+
 # create new project folder locally
 path = config['folderPath']
 try:
